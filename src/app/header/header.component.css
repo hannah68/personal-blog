@@ -1,0 +1,10 @@
+.navbar-groups{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-items{
+    display: flex;
+    gap: 2rem;
+}
