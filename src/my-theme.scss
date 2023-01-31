@@ -1,0 +1,65 @@
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+$shuttle-gray-palette: (
+    50: #eeeeee,
+    100: #d4d4d4,
+    200: #b7b8b8,
+    300: #969da0,
+    400: #7e888e,
+    500: #66757c,
+    600: #5a666c,
+    700: #4b5257,
+    800: #3c4042,
+    900: #2a2b2c,
+ contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+ )
+);
+
+$gray-palette: (
+    50: #fbfbfb,
+    100: #f6f6f6,
+    200: #f1f1f1,
+    300: #e6e6e6,
+    400: #c4c4c4,
+    500: #a5a5a5,
+    600: #7c7c7c,
+    700: #676767,
+    800: #484848,
+    900: #262626,
+ contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+ )
+);
+
+// Define a dark theme
+$dark-primary: mat.define-palette($shuttle-gray-palette, 600);
+$dark-accent: mat.define-palette($gray-palette,300);
+$dark-theme: mat.define-dark-theme((
+ color: (
+   primary: $dark-primary,
+   accent: $dark-accent,
+ )
+));
+
+@include mat.all-component-themes($dark-theme);
