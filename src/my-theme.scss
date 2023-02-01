@@ -52,13 +52,38 @@ $gray-palette: (
  )
 );
 
+$corn-palette: (
+   50: #f9f9eb,
+    100: #f0eecd,
+    200: #e7e4ae,
+    300: #ddda92,
+    400: #d6d280,
+    500: #d0cb70,
+    600: #c1ba6a,
+    700: #aea562,
+    800: #998f5d,
+    900: #746c56,
+ contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+ )
+);
+
 // Define a dark theme
 $dark-primary: mat.define-palette($shuttle-gray-palette, 600);
 $dark-accent: mat.define-palette($gray-palette,300);
 $dark-theme: mat.define-dark-theme((
  color: (
    primary: $dark-primary,
-   accent: $dark-accent,
+   accent: $dark-accent
  )
 ));
 
