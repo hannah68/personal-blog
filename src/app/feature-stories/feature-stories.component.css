@@ -1,0 +1,47 @@
+.feature-section{
+    width: 80vw;
+    height: 72vh;
+    margin: 12rem auto;
+    cursor: pointer;
+}
+
+.feature-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.feature-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.feature-icons{
+    display: flex;
+    gap: 2rem;
+}
+
+.feature-icons img{
+    width: 3rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+.right-arrow{
+    background-color: #998F5D;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.left-arrow{
+    padding: 4px 10px;
+}
+
+.card-feature-container{
+    width: 100%;
+    gap: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.feature-card{
+    width: 22rem;
+}
