@@ -1,5 +1,6 @@
 .recent-section{
     width: 80vw;
+    height: 100vh;
     margin: 1rem auto;
     cursor: pointer;
     display: flex;
