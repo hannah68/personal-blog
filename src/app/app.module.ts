@@ -11,12 +11,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import {MatGridListModule}from '@angular/material/grid-list';
 import {MatCardModule} from '@angular/material/card';
+import {MatInputModule} from '@angular/material/input';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HeroComponent } from './hero/hero.component';
 import { FeatureStoriesComponent } from './feature-stories/feature-stories.component';
 import { RecentStoriesComponent } from './recent-stories/recent-stories.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -25,7 +27,8 @@ import { RecentStoriesComponent } from './recent-stories/recent-stories.componen
     HeaderComponent,
     HeroComponent,
     FeatureStoriesComponent,
-    RecentStoriesComponent
+    RecentStoriesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +42,8 @@ import { RecentStoriesComponent } from './recent-stories/recent-stories.componen
     MatIconModule,
     MatListModule,
     MatGridListModule,
-    MatCardModule
+    MatCardModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
