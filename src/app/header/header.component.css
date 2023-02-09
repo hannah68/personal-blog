@@ -3,9 +3,26 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0;
 }
 
+.navbar-groups{
+    list-style: none;
+}
+
+.navbar-groups li a{
+    text-decoration: none;
+    color: #fff;
+}
 .navbar-items{
     display: flex;
     gap: 2rem;
+    
+    cursor: pointer;
+}
+
+.navbar-items li a{
+    text-decoration: none;
+    color: #fff;
 }
