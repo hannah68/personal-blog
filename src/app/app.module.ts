@@ -19,6 +19,11 @@ import { HeroComponent } from './hero/hero.component';
 import { FeatureStoriesComponent } from './feature-stories/feature-stories.component';
 import { RecentStoriesComponent } from './recent-stories/recent-stories.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
+import { BooksComponent } from './books/books.component';
+import { BlogComponent } from './blog/blog.component';
+import { HomeComponent } from './home/home.component';
+import { BlogDetailComponent } from './blog/blog-detail/blog-detail.component';
 
 
 @NgModule({
@@ -28,7 +33,12 @@ import { FooterComponent } from './footer/footer.component';
     HeroComponent,
     FeatureStoriesComponent,
     RecentStoriesComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    BooksComponent,
+    BlogComponent,
+    HomeComponent,
+    BlogDetailComponent
   ],
   imports: [
     BrowserModule,
